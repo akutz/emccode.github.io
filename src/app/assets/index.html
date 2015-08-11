@@ -1,6 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en" class="no-js">
+
+<head>
+    <base href="/">
+    <title>EMC {code} | Community Onramp for Developer Enablement</title>
+
+    <meta charset="utf-8">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <!--<link rel="stylesheet" href="styles/ext.css">-->
+    <link rel="stylesheet" href="styles/app.css">
+    
     <!-- Favicons from http://realfavicongenerator.net/ -->
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
@@ -17,43 +31,13 @@
     <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
 
-    <!-- The real start of the head -->
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Exo:400,500,700|Quattrocento+Sans:400,400italic|Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/tooltipster.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="javascripts/jquery.sticky.js"></script>
-    <script src="javascripts/jquery.tooltipster.min.js"></script>
-    <script src="javascripts/main.js"></script>
+</head>
 
+<body ng-app="rexray" ng-strict-di>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!--Google Analytics Code START -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-57022521-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <!--Google Analytics Code END -->
-
-    <title>EMC {code} | Community Onramp for Developer Enablement</title>
-  </head>
-
-  <body>
     <header>
       <div class="inner">
         <div id="bannerImage">
@@ -690,5 +674,22 @@
         <p><a href="http://www.emc.com/legal/emc-corporation-privacy-statement.htm">Privacy Policy</a></p>
     </div>
 
-  </body>
+    <script src="scripts/ext.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <!--Google Analytics Code START -->
+    <script>
+      /*
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-57022521-1', 'auto');
+      ga('send', 'pageview');
+      */
+    </script>
+    <!--Google Analytics Code END -->
+</body>
+
 </html>
